@@ -4,3 +4,5 @@ numpy
 time
 yfinance
 plotly
+alpha_vantage
+stocknews

@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit secrets (biar API key aman)
+.streamlit/secrets.toml
+
+# Virtual Environment (kalau pake)
+venv/
+env/
+
+# Data (Opsional: kalau gak mau upload CSV ke github)
+# Hapus tanda pagar di bawah kalau folder data gak mau di-upload
+# data/
+
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.streamlit/secrets.toml
+venv/
+env/
