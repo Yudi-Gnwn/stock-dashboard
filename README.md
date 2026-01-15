@@ -21,7 +21,7 @@ Dashboard sederhana untuk memantau dan menganalisis pergerakan harga saham.
 1.  **Clone repository**
 
     ```bash
-    git clone [https://github.com/Yudi-Gnwn/stock-dashboard.git](https://github.com/Yudi-Gnwn/stock-dashboard.git)
+    git clone https://github.com/Yudi-Gnwn/stock-dashboard.git
     cd stock-dashboard
     ```
 
@@ -33,16 +33,16 @@ Dashboard sederhana untuk memantau dan menganalisis pergerakan harga saham.
 
 3.  **Setup API Key**
 
-    - Dapatkan API Key di [Alpha Vantage](https://www.alphavantage.co/).
+    - Dapatkan API Key pada Website [Alpha Vantage](https://www.alphavantage.co/).
     - Masukkan API Key ke dalam variabel `key` di file `app.py`.
 
-4.  **Jalankan Aplikasi**
+4.  **Run app**
     ```bash
     streamlit run app.py
     ```
 
-## 📸 Preview
+### 📸 Preview
+
 
 ---
-
-**Note:** Aplikasi ini dibuat untuk keperluan portofolio. Segala keputusan investasi yang diambil berdasarkan data dari aplikasi ini adalah tanggung jawab pengguna sepenuhnya.
+**Note:** Aplikasi ini dibuat untuk keperluan portofolio. Segala keputusan investasi yang diambil adalah tanggung jawab individu, DYOR bro.
