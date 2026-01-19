@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import time
 import yfinance as yf
 import plotly.express as px
 
@@ -48,7 +47,6 @@ with fundamental_data:
     bs.columns = list(balance_sheet.T.iloc[0])
     st.write(bs)
     st.subheader('Income Statement')
-    time.sleep(3)
     income_statement = fd.get_income_statement_annual(ticker)[0]
     is1 = income_statement.T[2:]
     is1.columns = list(income_statement.T.iloc[0])

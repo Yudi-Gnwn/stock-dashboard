@@ -43,6 +43,16 @@ Dashboard sederhana untuk memantau dan menganalisis pergerakan harga saham.
 
 ### 📸 Preview
 
+##### Dashboard
+![](assets/stock_chart.png)
+
+##### Fundamental Data
+![](assets/price_movement.png)
+
+##### Stock News
+![](assets/stock_news.png)
 
 ---
-**Note:** Aplikasi ini dibuat untuk keperluan portofolio. Segala keputusan investasi yang diambil adalah tanggung jawab individu, DYOR bro.
+**Note:** Aplikasi ini dibuat untuk keperluan portofolio. Segala keputusan investasi yang diambil adalah tanggung jawab individu. 
+
+##### do research before buying shares!.
