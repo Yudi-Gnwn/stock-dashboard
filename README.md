@@ -1,23 +1,25 @@
 ## 📈 Stock Dashboard App
 
+![](assets/stock_chart.png)
+
 Dashboard sederhana untuk memantau dan menganalisis pergerakan harga saham.
 
 ### Fitur
-
-- Grafik **Visualisasi Harga** Saham (Historical Data).
-- Perhitungan otomatis untuk **Annual Return** dan risiko **(Standard Deviation)**.
-- Menampilkan Neraca **(Balance Sheet), Laporan Laba Rugi, dan Arus Kas**.
-- Menampilkan **10 berita terbaru** terkait saham tersebut beserta analisis sentimennya (Positif/Negatif).
+---
+- Grafik **Visualisasi** pergerakan harga Saham.
+- Perhitungan otomatis untuk **Annual Return** dan **Standard Deviation**.
+- Menampilkan **Balance Sheet, Laporan Laba Rugi, dan Arus Kas**.
+- Menampilkan **10 berita terbaru** terkait saham tersebut beserta analisis sentimen (Positif/Negatif).
 
 ### Tools
-
+---
 - **Framework**: Streamlit
 - **Library Data**: `yfinance`, `alpha_vantage`, `stocknews`
 - **Data Processing**: Pandas, Numpy
 - **Visualisasi**: Plotly Express
 
 ### How to run
-
+---
 1.  **Clone repository**
 
     ```bash
@@ -42,10 +44,7 @@ Dashboard sederhana untuk memantau dan menganalisis pergerakan harga saham.
     ```
 
 ### 📸 Preview
-
-##### Dashboard
-![](assets/stock_chart.png)
-
+---
 ##### Fundamental Data
 ![](assets/price_movement.png)
 
@@ -53,6 +52,6 @@ Dashboard sederhana untuk memantau dan menganalisis pergerakan harga saham.
 ![](assets/stock_news.png)
 
 ---
-**Note:** Aplikasi ini dibuat untuk keperluan portofolio. Segala keputusan investasi yang diambil adalah tanggung jawab individu. 
+---
 
-##### do research before buying shares!.
+**Note:** *Aplikasi ini dibuat untuk keperluan portofolio. Segala keputusan investasi yang diambil adalah tanggung jawab individu.*
