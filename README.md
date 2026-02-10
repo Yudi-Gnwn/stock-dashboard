@@ -1,15 +1,15 @@
-## 📈 Stock Dashboard App
+## 📈 Stock Dashboard App + News
 
 ![](assets/stock_chart.png)
 
-Dashboard sederhana untuk memantau dan menganalisis pergerakan harga saham.
+Dashboard saham sederhana untuk memantau dan menganalisis pergerakan harga saham US dengan fitur untuk melihat News terbaru.
 
 ### Fitur
 ---
 - Grafik **Visualisasi** pergerakan harga Saham.
-- Perhitungan otomatis untuk **Annual Return** dan **Standard Deviation**.
+- Perhitungan **Annual Return** dan **Standard Deviation**.
 - Menampilkan **Balance Sheet, Laporan Laba Rugi, dan Arus Kas**.
-- Menampilkan **10 berita terbaru** terkait saham tersebut beserta analisis sentimen (Positif/Negatif).
+- Fitur untuk melihat **10 berita terbaru** terkait saham tersebut beserta analisis sentimen.
 
 ### Tools
 ---
@@ -36,7 +36,7 @@ Dashboard sederhana untuk memantau dan menganalisis pergerakan harga saham.
 3.  **Setup API Key**
 
     - Dapatkan API Key pada Website [Alpha Vantage](https://www.alphavantage.co/).
-    - Masukkan API Key ke dalam variabel `key` di file `app.py`.
+    - Masukkan API Key ke dalam variabel `key` di file `stock_dashboard.py`.
 
 4.  **Run app**
     ```bash
